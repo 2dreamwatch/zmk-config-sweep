@@ -92,7 +92,7 @@
             bindings = <
             &kp ESC     &kp LC(LS(TAB))     &kp LC(TAB)     &kp LA(BSPC) &kp LA(DEL)         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
             &kp LC(A)   &kp LA(LS(TAB))     &kp LA(TAB)     &kp LC(BSPC) &kp LC(DEL)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
-            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp MINUS  &k LS(2)   &kp LS(1)   &KP FSLH
+            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp MINUS  &kp LS(2)   &kp LS(1)   &KP FSLH
                                                             &trans       &kp TAB             &trans     &trans
             >;
         };
