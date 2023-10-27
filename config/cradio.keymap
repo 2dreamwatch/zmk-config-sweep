@@ -82,8 +82,8 @@
         default_layer {
             bindings = <
             &kp Q          &kp W           &kp E         &kp R                   &kp T       &kp Y      &kp U                    &kp I           &kp O            &kp P
-            &hm_l LGUI A   &hm_l LALT S   &hm_l CTRL D   &hm_shift_l LSHFT F     &kp G       &kp H      &hm_shift_r RSHFT J      &hm_r RCTRL K   &hm_r RALT L     &hm_r RGUI SQT
-            &kp Z          &kp X          &kp C          &kp V                   &kp B       &kp N      &kp M                    &kp COMMA         &kp DOT          &kp FSLH
+            &hm_l LGUI A   &hm_l LALT S   &hm_l CTRL D   &hm_shift_l LSHFT F     &kp G       &kp H      &hm_shift_r RSHFT J      &hm_r CTRL K   &hm_r RALT L     &hm_r RGUI SQT
+            &kp Z          &kp X          &kp C          &kp V                   &kp B       &kp N      &kp M                    &kp COMMA         &kp DOT          &kp BSLH
                                                          &ss_cw                  &bdln       &lt 1 SPACE     &lt 3 ENTER
             >;
         };
@@ -92,7 +92,7 @@
             bindings = <
             &kp ESC     &kp LC(LS(TAB))     &kp LC(TAB)     &kp LA(BSPC) &kp LA(DEL)         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
             &kp LC(A)   &kp LA(LS(TAB))     &kp LA(TAB)     &kp LC(BSPC) &kp LC(DEL)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
-            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp LPAR   &kp MINUS  &exc_sp    &trans
+            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp MINUS  &k LS(2)   &kp LS(1)   &KP FSLH
                                                             &trans       &kp TAB             &trans     &trans
             >;
         };
