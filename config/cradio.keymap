@@ -29,7 +29,7 @@
             label = "cc_sw";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lt 4 ESC>, <&caps_word>;
+            bindings = <&lt 5 ESC>, <&caps_word>;
         };
         
         // tap: backspace | shift + tap: delete | hold: num layer
@@ -37,7 +37,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "bdln";
             #binding-cells = <0>;
-            bindings = <&lt 2 BSPC>, <&kp DEL>;
+            bindings = <&lt 3 BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
@@ -84,10 +84,18 @@
             &kp Q          &kp W           &kp E         &kp R                   &kp T       &kp Y      &kp U                    &kp I           &kp O            &kp P
             &hm_l LGUI A   &hm_l LALT S   &hm_l LCTRL D   &hm_shift_l LSHFT F     &kp G       &kp H      &hm_shift_r RSHFT J      &hm_r RCTRL K   &hm_r RALT L     &hm_r RGUI SQT
             &kp Z          &kp X          &kp C          &kp V                   &kp B       &kp N      &kp M                    &kp COMMA         &kp DOT          &kp BSLH
-                                                         &ss_cw                  &bdln       &lt 1 SPACE     &lt 3 ENTER
+                                                         &ss_cw                  &bdln       &lt 2 SPACE     &lt 4 ENTER
             >;
         };
 
+        colemakDH_layer {
+            bindings = <
+            &kp Q          &kp W           &kp F         &kp P                   &kp B       &kp J      &kp L                    &kp U           &kp Y            &kp SQT
+            &hm_l LGUI A   &hm_l LALT R   &hm_l LCTRL S   &hm_shift_l LSHFT T     &kp G       &kp M      &hm_shift_r RSHFT N      &hm_r RCTRL E   &hm_r RALT I     &hm_r RGUI O
+            &kp Z          &kp X          &kp C          &kp D                   &kp V       &kp K      &kp H                    &kp COMMA         &kp DOT          &kp BSLH
+                                                         &ss_cw                  &bdln       &lt 2 SPACE     &lt 4 ENTER
+            >;
+        };
         right_layer {
             bindings = <
             &kp ESC     &kp LC(LS(TAB))     &kp LC(TAB)     &kp LA(BSPC) &kp LA(DEL)         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
@@ -111,7 +119,7 @@
             &trans 	    &kp C_MUTE 	&kp C_VOL_DN	&kp C_VOL_UP  	&none     		       	&trans &kp F7 &kp F8 &kp F9 &kp F12
             &kp LGUI 	&kp LALT 	&kp LCTRL 		&kp LSHIFT 		&none           		&trans &kp F4 &kp F5 &kp F6 &kp F11
             &trans		&trans	 	&kp C_BRI_DN	&kp C_BRI_UP 	&none					&trans &kp F1 &kp F2 &kp F3 &kp F10
-                                   						&mo 4   	&trans           		&trans 		&trans
+                                   						&mo 5   	&tog 2      		&trans 		&trans
             >;
         }; 
         
