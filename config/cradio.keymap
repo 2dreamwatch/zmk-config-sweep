@@ -83,7 +83,7 @@
             bindings = <
             &kp Q          &kp W           &kp E         &kp R                   &kp T       &kp Y      &kp U                    &kp I           &kp O            &kp P
             &hm_l LGUI A   &hm_l LALT S   &hm_l LCTRL D   &hm_shift_l LSHFT F     &kp G       &kp H      &hm_shift_r RSHFT J      &hm_r RCTRL K   &hm_r RALT L     &hm_r RGUI SQT
-            &kp Z          &kp X          &kp C          &kp V                   &kp B       &kp N      &kp M                    &kp COMMA         &kp DOT          &kp BSLH
+            &kp Z          &kp X          &kp C          &kp V                   &kp B       &kp N      &kp M                    &kp COMMA         &kp DOT          &kp FSLH
                                                          &ss_cw                  &bdln       &lt 1 SPACE     &lt 3 ENTER
             >;
         };
@@ -92,7 +92,7 @@
             bindings = <
             &kp ESC     &kp LC(LS(TAB))     &kp LC(TAB)     &kp LA(BSPC) &kp LA(DEL)         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
             &kp LC(A)   &kp LA(LS(TAB))     &kp LA(TAB)     &kp LC(BSPC) &kp LC(DEL)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
-            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp MINUS  &kp LS(2)   &kp LS(1)   &kp FSLH
+            &kp LC(Z)   &kp LC(X)           &kp LC(C)       &kp LC(V)    &kp TAB             &kp AMPS   &kp MINUS  &kp LS(N2)   &kp LS(N1)   &kp BSLH
                                                             &trans       &kp TAB             &trans     &trans
             >;
         };
@@ -101,7 +101,7 @@
             bindings = <
             &kp LBKT   &kp RBKT  &kp LBRC  &kp RBRC     &kp BSLH       &kp FSLH   &kp N7      &kp N8   &kp N9   &kp COLON
             &kp DQT    &kp ASTRK &kp LPAR  &kp RPAR     &kp PIPE       &kp DOT    &kp N4      &kp N5   &kp N6   &kp PLUS
-            &kp GRAVE    &trans    &kp LT    &kp GT       &kp GT         &kp MINUS  &kp N1      &kp N2   &kp N3   &kp EQUAL
+            &kp GRAVE    &trans    &kp LT    &kp GT       &kp GT       &kp MINUS  &kp N1      &kp N2   &kp N3   &kp EQUAL
                                            &trans       &trans         &kp SPACE  &kp N0
             >;
         };
@@ -120,7 +120,7 @@
             &kp Q          &kp W           &kp F         &kp P                   &kp B       &kp J      &kp L                    &kp U           &kp Y            &kp SQT
             &hm_l LGUI A   &hm_l LALT R   &hm_l LCTRL S   &hm_shift_l LSHFT T     &kp G       &kp M      &hm_shift_r RSHFT N      &hm_r RCTRL E   &hm_r RALT I     &hm_r RGUI O
             &kp Z          &kp X          &kp C          &kp D                   &kp V       &kp K      &kp H                    &kp COMMA         &kp DOT          &kp BSLH
-                                                         &ss_cw                  &bdln       &lt 1 SPACE     &lt 3 ENTER
+                                                         &ss_cw                  &bdln       &lt 1 SPACE     &lt 5 ENTER
             >;
         };
         
@@ -129,7 +129,7 @@
             &sys_reset &trans &trans &trans &trans          &bt BT_CLR &trans &trans &trans &sys_reset
             &trans &trans &trans &trans &trans              &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             &bootloader &trans &trans &trans &trans         &trans &trans &trans &trans &bootloader
-                                      &trans &trans         &trans &trans
+                                      &trans &tog 4         &trans &trans
             >;
         };   
     };
