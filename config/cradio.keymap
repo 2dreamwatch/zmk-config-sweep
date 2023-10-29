@@ -100,7 +100,7 @@
         left_layer {
             bindings = <
             &kp LBKT   &kp RBKT  &kp LBRC  &kp RBRC     &kp BSLH       &kp FSLH   &kp N7      &kp N8   &kp N9   &kp COLON
-            &kp DQT    &kp ASTRK &kp LPAR  &kp RPAR     &kp PIPE       &kp DOT    &kp N4      &kp N5   &kp N6   &kp PLUS
+            &kp DQT    &kp ASTRK &kp LPAR  &kp RPAR     &kp PIPE       &kp PLUS    &kp N4     &kp N5   &kp N6   &kp DOT
             &kp GRAVE    &trans    &kp LT    &kp GT       &kp GT       &kp MINUS  &kp N1      &kp N2   &kp N3   &kp EQUAL
                                            &trans       &trans         &kp SPACE  &kp N0
             >;
