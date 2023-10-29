@@ -26,7 +26,7 @@
         // tap: sticky shift | double tap: capsword
         ss_cw: ss_cw {
             compatible = "zmk,behavior-tap-dance";
-            label = "cc_sw";
+            label = "ss_cw";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <TAB>, <&caps_word>;
